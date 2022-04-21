@@ -2,7 +2,7 @@ name: py3createtorrent
 on:
   workflow_dispatch:
     inputs:
-      name:
+      name: 
         description: Name of the torrent file
         required: true
         default: Firefox Setup 95.0.1
@@ -11,7 +11,7 @@ on:
         required: true
         default: Firefox Setup 95.0.1 win64 en-US by torrent-webseed-creator
       url:
-        description: URL of the file
+        description: https://drive.google.com/drive/folders/1yCQ73B7t8FHVXsupvx0_QDmGdAY-je7c?usp=sharing
         required: true
         default: 'https://drive.google.com/drive/folders/1yCQ73B7t8FHVXsupvx0_QDmGdAY-je7c?usp=sharing'
       file_name:
